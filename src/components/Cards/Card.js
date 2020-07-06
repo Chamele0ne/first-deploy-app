@@ -5,7 +5,7 @@ export const Card = (props) => {
 
 	return (
 
-<tr>
+<tr >
       <th scope="row">{props.id}</th>
       <td>{props.item.name}</td>
       <td>{props.item.callingCodes[0]}</td>
